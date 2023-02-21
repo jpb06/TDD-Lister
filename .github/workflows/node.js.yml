@@ -34,5 +34,5 @@ jobs:
         uses: jpb06/jest-badges-action@latest
         with:
           branches: main
-          coverage-summary-path: /home/runner/work/TDD-Lister/TDD-Lister/src/backend/coverage/coverage-summary.json
-          output-folder: /home/runner/work/TDD-Lister/TDD-Lister/src/backend/coverage/
+          coverage-summary-path: ./coverage/coverage-summary.json
+          output-folder: ./coverage/
