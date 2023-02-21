@@ -30,7 +30,7 @@ jobs:
       - run: pwd
       - run: cat coverage/coverage-summary.json
       - name: Generating coverage badges for backend
-        uses: jpb06/jest-badges-action@test-6
+        uses: jpb06/jest-badges-action@test-7
         with:
           branches: main
           coverage-summary-path: ./src/backend/coverage/coverage-summary.json
