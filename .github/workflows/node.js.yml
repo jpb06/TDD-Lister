@@ -32,6 +32,4 @@ jobs:
       - name: Generating coverage badges for backend
         uses: jpb06/jest-badges-action@test-7
         with:
-          branches: main
           coverage-summary-path: ./src/backend/coverage/coverage-summary.json
-          output-folder: ./src/backend/coverage
